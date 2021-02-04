@@ -1,0 +1,111 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+ul {
+     margin-left:57%;
+}
+ul > li {
+     display: inline;
+}
+
+a {
+     text-decoration: none;
+     color: black;
+     margin-right: 5px;
+     font-size: 15px;
+     font-weight: bold;
+}
+
+h1 {
+     font-family: 'Poppins', Courier, monospace;
+     width: 25%;
+     font-size: 50px;
+}
+
+h3 {
+     display: inline;
+}
+img {
+     height: 25px;
+     margin-top: 25px;
+     margin-right: 60px;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+#Welcome {
+     padding: 10% 0 10% 15%;
+     background-image: url("graypage.jpg");
+     background-repeat: no-repeat;
+}
+
+#Aboutus {
+     
+     background-image: url("fruitpage.jpg");
+     background-repeat: no-repeat;
+     padding: 5% 0 10% 55%;
+     
+     font-size: 30px;
+}
+
+#order h2, h4{
+     text-align: center;
+}
+#mealTypes {
+     text-align: center;
+     margin: 0;
+     padding: 0;
+}
+
+#mealTypes li {
+     padding-right: 20px;
+     font-family: 'Heebo', Courier, monospace;
+}
+
+#foodPics {
+     text-align: center;
+}
+#foodPics img {
+     height: 160px;
+}
+
+.opacityClass {
+     opacity: 0.4;
+}
+
+.defaultOpacity { 
+     opacity: 1;
+}
+
+#baconText {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100px;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
